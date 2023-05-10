@@ -213,6 +213,6 @@ return [
                 "Joëlle Jones"
             ],
         ],
-    ]
+    ],
+    'navLinks'=> ["Characters", "Comics", "Movies", "Tv", "Games", "Collectibles", "Video", "Fans", "News", "Shop"]
 ];
-

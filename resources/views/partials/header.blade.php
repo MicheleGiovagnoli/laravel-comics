@@ -1,5 +1,4 @@
 <header>
-    <h1>header</h1>
     <header>
         <nav>
             <!-- Logo Brand -->
@@ -9,11 +8,13 @@
 
             <!-- Links -->
             <ul class="navbar">
+                @foreach($navLinks as $link)
                 <li>
-                    <a class="link" href="">                        
-                    </a>
+                    <a class="link" href="{{$link}}">{{$link}}</a>
                 </li>
+                @endforeach
             </ul>
         </nav>
     </header>
 </header>
+
