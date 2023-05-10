@@ -18,3 +18,4 @@ Route::get('/', function () {
     $navLinks = config('comics.navLinks');
     return view('home', compact('dati','navLinks'));
 })->name('home');
+
